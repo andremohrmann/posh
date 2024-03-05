@@ -107,7 +107,7 @@
         },
         {
           "background": "#AE1401",
-          "foreground": "#ffffff",
+          "foreground": "#bbbbbb",
           "invert_powerline": true,
           "powerline_symbol": "\ue0b2",
           "properties": {
@@ -120,7 +120,7 @@
         },
         {
           "background": "#FEAC19",
-          "foreground": "#ffffff",
+          "foreground": "#bbbbbb",
           "invert_powerline": true,
           "powerline_symbol": "\ue0b2",
           "properties": {
@@ -136,7 +136,7 @@
             "{{if contains \"default\" .Profile}}#FFA400{{end}}",
             "{{if contains \"jan\" .Profile}}#f1184c{{end}}"
           ],
-          "foreground": "#ffffff",
+          "foreground": "#bbbbbb",
           "invert_powerline": true,
           "powerline_symbol": "\ue0b2",
           "properties": {
@@ -169,14 +169,14 @@
           "background_templates": [
             "{{ if gt .Code 0 }}#cc2222{{ end }}"
           ],
-          "foreground": "#d3d7cf",
+          "foreground": "#bbbbbb",
           "invert_powerline": true,
           "powerline_symbol": "\ue0b2",
           "properties": {
             "always_enabled": true
           },
           "style": "powerline",
-          "template": " {{ if gt .Code 0 }}{{ reason .Code }}{{ else }}\uf42e{{ end }} ",
+          "template": " {{ if gt .Code 0 }}\u2718{{ else }}\uf42e{{ end }} ",
           "type": "status"
         },
         {
@@ -195,7 +195,7 @@
       "newline": true,
       "segments": [
         {
-          "foreground": "#d3d7cf",
+          "foreground": "#bbbbbb",
           "style": "plain",
           "template": "\u2570\u2500#",
           "type": "text"
